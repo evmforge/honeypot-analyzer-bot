@@ -1,0 +1,18 @@
+{
+  "name": "honeypot-analyzer-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ethereum", "telegram", "honeypot", "bot", "DeFi", "web3"],
+  "author": "chilltoshi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.17.0",
+    "telegraf": "^4.16.3"
+  }
+}
