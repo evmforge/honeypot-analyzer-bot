@@ -1,9 +1,9 @@
 
 // Lock Contract Address
-const UnicryptAddress = "0x663A5C229c09b049E36dCc11a9B0d4a8Eb9db214"; // Address of the liquidity lock contract
+const UnicryptAddress = "0x663A5C229c09b049E36dCc11a9B0d4a8Eb9db214"; 
 const pinksaleAddress = '0x71B5759d73262FBb223956913ecF4ecC51057641'
-const TrustSwapAddress = "0xE2fE530C047f2d85298b07D9333C05737f1435fB"; // Replace with TrustSwap contract address
-const BURN_ADDRESS = '0x000000000000000000000000000000000000dEaD'; // BURN ADDRESS
+const TrustSwapAddress = "0xE2fE530C047f2d85298b07D9333C05737f1435fB"; 
+const BURN_ADDRESS = '0x000000000000000000000000000000000000dEaD'; 
 
 const erc20ABI = [
   'function decimals() view returns (uint8)',

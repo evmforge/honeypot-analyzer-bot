@@ -159,7 +159,7 @@ if (honeyPotStatus) {
 *⏰Age:* ${contractAge}`;
 formattedMessage += `\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_
 \`\\(DYOR\\)\\. NFA\\. Make informed decisions.\\.\`
-*Promotion:* [Your Ad here](https://t.me/Defiradardev)`;
+*Promotion:* [Your Ad here](https://t.me/chilltoshi)`;
 
 } else if (honeyPotStatus.simulationSuccess === true && honeyPotStatus.honeypotResult.isHoneypot === false ) {
 let warningTax = '';
@@ -224,7 +224,7 @@ formattedMessage += sniperBotsInfo;
 }
 formattedMessage += `\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_
 \`\\(DYOR\\)\\. NFA\\. Make informed decisions.\\.\`
-*Promotion:* [Your Ad here](https://t.me/Defiradardev)`;
+*Promotion:* [Your Ad here](https://t.me/chilltoshi)`;
 
 } else if (honeyPotStatus.simulationSuccess === true && honeyPotStatus.honeypotResult.isHoneypot === true ) {
 formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${escapeMarkdownV2Text(tokenInfo.symbol)}\\)*
@@ -243,7 +243,7 @@ formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${es
 *⏰Age:* ${contractAge}`;
 formattedMessage += `\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_
 \`\\(DYOR\\)\\. NFA\\. Make informed decisions.\\.\`
-*Promotion:* [Your Ad here](https://t.me/Defiradardev)`;
+*Promotion:* [Your Ad here](https://t.me/chilltoshi)`;
 
 }  else if (honeyPotStatus.simulationSuccess === false && honeyPotStatus.simulationError === 'execution reverted: UniswapV2Library: INSUFFICIENT_LIQUIDITY' ) {
 const subscriberIds = readSubscriberIdSync();
@@ -265,11 +265,10 @@ if (isPremiumUser) {
 *⏰Age:* ${contractAge}`;
 formattedMessage += `\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_
 \`\\(DYOR\\)\\. NFA\\. Make informed decisions.\\.\`
-*Promotion:* [Your Ad here](https://t.me/Defiradardev)`;
+*Promotion:* [Your Ad here](https://t.me/chilltoshi)`;
 } else {
 
-    formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${escapeMarkdownV2Text(tokenInfo.symbol)}\\)*\n*❗️ The token don't have liquidity yet\\.*
-    \nExclusive Access: Holders possessing at least 5m \\(0\\.2%\\) of $DRADAR are granted the privilege to scan tokens without liquidity\\. For comprehensive insights and privileges, /verify or join our community at @DefiRadarPortal to know more\\. `
+    formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${escapeMarkdownV2Text(tokenInfo.symbol)}\\)*\n*❗️ The token don't have liquidity yet\\.*`
   }
 } else if (honeyPotStatus.simulationSuccess === false && honeyPotStatus.simulationError === 'execution reverted: HP: BUY_FAILED' ) {
 formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${escapeMarkdownV2Text(tokenInfo.symbol)}\\)*
@@ -289,7 +288,7 @@ formattedMessage = `*Token Name: ${escapeMarkdownV2Text(tokenInfo.name)} \\(${es
 
 formattedMessage += `\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_
 \`\\(DYOR\\)\\. NFA\\. Make informed decisions.\\.\`
-*Promotion:* [Your Ad here](https://t.me/Defiradardev)`;
+*Promotion:* [Your Ad here](https://t.me/chilltoshi)`;
 
 } else {
     formattedMessage = 'status not found'

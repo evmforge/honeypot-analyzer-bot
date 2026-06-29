@@ -1,6 +1,4 @@
 const axios = require('axios');
-const { getContractAge } = require('./EsService');
-
 
 async function getHoneyPotStatus(tokenAddress) {
   try {
