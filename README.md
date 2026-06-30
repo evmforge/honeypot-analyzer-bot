@@ -38,7 +38,7 @@ A Telegram bot that delivers a comprehensive audit report on ERC-20 tokens on th
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Abdullahturk/honeypot-analyzer-bot.git
+git clone https://github.com/evmforge/honeypot-analyzer-bot.git
 cd honeypot-analyzer-bot
 ```
 
